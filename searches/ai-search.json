@@ -1,0 +1,42 @@
+{
+    "header": {
+        "title": "ai-search",
+        "date": "2019-06-18",
+        "organization": "United Kingdom Intellectual Property Office"
+    },
+    "body": {
+        "ic": [
+            {
+                "field_operator": null,
+                "term_operator": "=",
+                "term": "G06F19/24 OR G06N3 OR G06N5 OR G06N7/02 OR G06N7/04 OR G06N7/06 OR G06N20 OR G06T1/40 OR G16B4/20 OR G16B4/30 OR G16C20/70"
+            }
+        ],
+        "cpc": [
+            {
+                "field_operator": "OR",
+                "term_operator": "=",
+                "term": "A61B5/7267 OR G01N33/0034 OR G06F19/24 OR G10H2250/151 OR H04L2025/03464 OR B29C66/965 OR G01N2201/1296 OR G06F19/707 OR G10H2250/311 OR H04N21/4662 OR B29C2945/76979 OR G01S7/417 OR G06F2207/4824 OR G10K2210/3024 OR H04N21/4663 OR B60G2600/1876 OR G05B13/027 OR G06K7/1482 OR G10K2210/3038 OR H04N21/4665 OR B60G2600/1878 OR G05B13/0275 OR G06N3/004 OR G10L25/30 OR H04N21/4666 OR B60G2600/1879 OR G05B13/028 OR G06N3/02 OR G11B20/10518 OR H04Q2213/054 OR E21B2041/0028 OR G05B13/0285 OR G06N3/12 OR H01J2237/30427 OR H04Q2213/13343 OR F02D41/1405 OR G05B13/029 OR G06N5 OR H02P21/0014 OR H04Q2213/343 OR F03D7/046 OR G05B13/0295 OR G06N7 OR H02P23/0018 OR H04R25/507 OR F05B2270/707 OR G05B2219/33002 OR G06N20 OR H03H2017/0208 OR Y10S128/924 OR F05B2270/709 OR G05D1/0088 OR G06N99/005 OR H03H2222/04 OR Y10S128/925 OR F05D2270/707 OR G06F11/1476 OR G06T3/4046 OR H04L25/0254 OR Y10S706 OR F05D2270/709 OR G06F11/2257 OR G06T9/002 OR H04L25/03165 OR F16H2061/0081 OR G06F11/2263 OR G06T2207/20081 OR H04L41/16 OR F16H2061/0084 OR G06F15/18 OR G06T2207/20084 OR H04L45/08 OR G01N29/4481 OR G06F17/16 OR G08B29/186 OR H04L2012/5686"
+            }
+        ],
+        "abe": [
+            {
+                "field_operator": "OR",
+                "term_operator": "=",
+                "term": "ant-colony OR factorization machin* OR high-dimensional* feature* OR particle-swarm* OR bee-colony OR factorisation machin* OR high-dimensional* input* OR pattern-recogni* OR fire-fly OR feature engineer* OR k-means OR policy-gradient method OR adversar* network* OR feature extract* OR kernel learn* OR q-learn* OR artificial*-intelligen* OR feature select* OR latent-variable* OR random-forest* OR association rule OR fuzzy-c OR link* predict* OR recommender system* OR auto-encod* OR fuzzy environment* OR machine intelligen* OR reinforc* learn* OR autonom* comput* OR fuzzy logic* OR machine learn* OR sentiment* analy* OR back-propagat* OR fuzzy number* OR map-reduce OR sparse represent* OR back-propogat* OR fuzzy set* OR memetic algorithm* OR sparse*-code* OR cognitiv* comput* OR fuzzy system* OR multi* label* classif* OR spectral cluster* OR collaborat* filter* OR gaussian mixture model OR multi*-objective* algorithm* OR stochastic*-gradient* OR deep-belief network* OR gaussian process* OR multi*-objective* optim* OR *supervis* learn* OR deep-learn* OR genetic program* OR natural-gradient OR support-vector machine OR differential*-evol* algorithm* OR genetic* algorithm OR neural-turing OR swarm behav* OR dimensional*-reduc* OR high-dimensional* data OR *neural-network* OR swarm intell* OR ensemble-learn* OR high-dimensional* model* OR neuro-morph comput* OR transfer-learn* OR evolution* algorithm* OR high-dimensional* space* OR non-negative matri* factor* OR variation*-infer* OR evolution* comput* OR high-dimensional* system* OR object-recogni* OR vector-machine*"
+            }
+        ],
+        "pd": [
+            {
+                "field_operator": "AND",
+                "term_operator": ">=",
+                "term": "20000101"
+            },
+            {
+                "field_operator": "AND",
+                "term_operator": "<",
+                "term": "20200101"
+            }
+        ]
+    }
+}

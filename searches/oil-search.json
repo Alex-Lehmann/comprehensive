@@ -1,0 +1,42 @@
+{
+    "header": {
+        "title": "oil-search",
+        "date": "2017-05-19",
+        "organization": "Canadian Intellectual Property Office"
+    },
+    "body": {
+        "ic": [
+            {
+                "field_operator": null,
+                "term_operator": "=",
+                "term": "C10B* OR C10G* OR E21B* OR C09K008*"
+            }
+        ],
+        "ctb": [
+            {
+                "field_operator": "AND",
+                "term_operator": "=",
+                "term": "Shale OR KEROGEN OIL OR LIGHT OIL OR CANNEL OIL OR OGHEAD COAL OR ALUM SHALE OR STELLARITE OR ALBERTITE OR KEROSENE SHALE OR BITUMINITE OR GAS COAL OR ALGAL COAL OR WOLLONGITE OR SCHISTES BITUMINEUX OR TORBANITE OR KUKERSITE OR TIGHT GAS OR TIGHT OIL OR BAKKEN"
+            }
+        ],
+        "ad": [
+            {
+                "field_operator": "AND",
+                "term_operator": ">=",
+                "term": "20000101"
+            },
+            {
+                "field_operator": "AND",
+                "term_operator": "<=",
+                "term": "20140821"
+            }
+        ],
+        "ti": [
+            {
+                "field_operator": "NOT",
+                "term_operator": "=",
+                "term": "COAL MINING OR BIOFUEL OR COAL TAR"
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "header": {
+        "title": "ccmt-search",
+        "date": "2021-08-06",
+        "organization": "Canadian Intellectual Property Office"
+    },
+    "body": {
+        "cpc": [
+            {
+                "field_operator": null,
+                "term_operator": "=",
+                "term": "Y02B OR YO2C OR Y02D OR Y02E OR Y02T OR Y04S"
+            }
+        ],
+        "pd": [
+            {
+                "field_operator": "AND",
+                "term_operator": ">=",
+                "term": "20000101"
+            },
+            {
+                "field_operator": "AND",
+                "term_operator": "<",
+                "term": "20200101"
+            }
+        ]
+    }
+}
